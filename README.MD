@@ -58,4 +58,4 @@ python simulator.py
 
 ## License
 
-This project has no explicit license file. Add one if you plan to share it publicly.
+This project is licensed under the MIT License — see the `LICENSE` file for details.
