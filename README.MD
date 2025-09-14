@@ -19,7 +19,7 @@ A small Tkinter-based desktop app to build and simulate quantum circuits for the
 - numpy
 - matplotlib
 
-Install dependencies in a virtual environment:
+Install dependencies in a virtual environment using the included `requirements.txt`:
 
 ```bash
 python -m venv .venv
@@ -27,7 +27,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-If you don't have a `requirements.txt`, install the essentials manually:
+If you prefer to install manually, install the essentials:
 
 ```bash
 pip install qiskit qiskit-aer pillow numpy matplotlib
@@ -39,7 +39,7 @@ pip install qiskit qiskit-aer pillow numpy matplotlib
 2. Run the simulator GUI:
 
 ```bash
-python new_simulator.py
+python simulator.py
 ```
 
 3. Select an algorithm from the top control bar:
